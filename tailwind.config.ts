@@ -10,7 +10,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: colors.blue,
+        primary: {
+          100: "rgba(49,0,70,0.33)",
+          200: "rgba(49,0,70,0.44)",
+          300: "rgba(49,0,70,0.55)",
+          400: "rgba(49,0,70,0.66)",
+          500: "rgba(49,0,70,0.77)",
+          600: "rgb(49,0,70)",
+          700: "rgb(54,0,79)"
+        },
         secondary: colors.gray,
 
         provider: {
